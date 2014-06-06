@@ -1,0 +1,321 @@
+/*! Custom CSS Nunchee Content Manager */
+
+body {
+  min-height: 1900px;
+  padding-top: 70px;
+  font-family: 'Roboto',sans-serif;
+  color: #666 !important;
+}
+.navbar.navbar-default.navbar-fixed-top {
+	background: #53C7CC;
+	color: white;
+}
+.img-circle-show {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 100%;
+}
+.titleProgram  h1{
+	font-weight: 100;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h5{
+	color: #666;
+	font-weight: 100;
+}
+h4 {
+	font-weight: 300;
+}
+.panel-title{
+	color: #666;
+}
+.badgeImg {
+	display:inline-block;
+	min-width:10px;
+	padding:3px 7px;
+	font-size:12px;
+	color:#fff;
+	line-height:1;
+	vertical-align:baseline;
+	white-space:nowrap;
+	text-align:center;
+	background-color:#E9602B;
+	position: absolute;
+	font-weight:400;
+}
+.icons {
+	margin-right: 10px;
+	opacity: 0.7;
+	font-size: 20px;
+}
+.col-sm-7.col-md-7 > img {
+	margin-bottom: 20px;
+}
+#showsExhibition, .tab-content {
+	margin-top: 3%;
+	
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	background: #53C7CC;
+}
+#showsExhibition a {
+	padding: 10px;
+	font-size: 12px;
+	border-radius: 0;
+	
+
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	background: #E0E0E0;
+	
+}
+.nav-tabs > li > a {
+	
+	color: #666666;
+}
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    width: 10%;
+    text-align: center;
+    background: #E0E0E0;
+}
+.nav.nav-tabs.tabs-left > li {
+    float: left;
+    margin-bottom: -1px;
+    width: 110%;
+    text-align: center;
+    background: rgba(102, 102, 102, 0.3) !important;
+    margin-bottom: 5px;
+}
+.nav-tabs.tabs-left > li.active > a, .nav-tabs.tabs-left > li.active > a:hover, .nav-tabs.tabs-left > li.active > a:focus {
+	background: #ddd;
+}
+
+
+.nav-tabs > li:hover {
+	opacity: 0.6;
+	
+}
+.hour {
+	color: #EE4242;
+}
+.channel img {
+	margin-right: 10px;
+	float: left;
+}
+.img-circle.img-responsive.channel {
+	float: left;
+}
+.showCategory, .showSeasons, .showYear, .showChapters, .showDescription {
+	font-size: 14px;
+	font-weight: 100;
+} 
+.castDetail img  {
+	margin: 0 auto;
+}
+.castName {
+	color: #EE4242;
+	font-size: 14px;
+	text-align: center;
+}
+.castRole {
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+	margin-top: -10px;
+}
+.panel	{
+	box-shadow: none;
+}
+.panel-default	{
+	border: none;
+}
+a:hover, a:focus {
+    outline-color: -moz-use-text-color;
+    outline-offset: -2px;
+    outline-style: none;
+    outline-width: thin;
+    text-decoration: none;
+}
+/** * Bootstrap Vertical Tabs Component v1.0.0,© 2013,Ismail Demirbilek * http://github.com/dbtek/bootstrap-vertical-tabs */
+.tabs-left,.tabs-right {
+	border-bottom:0;
+	
+}
+.tabs-left {
+	border-right:0
+}
+.tabs-right {
+	border-left:0}
+.tabs-left>li,.tabs-right>li {
+	float:none;
+	margin-bottom:2px
+}
+.tabs-left>li {
+	margin-right:-1px
+}
+.tabs-right>li {
+	margin-left:-1px
+}
+.tabs-left>li.active>a,.tabs-left>li.active>a:focus,.tabs-left>li.active>a:hover {
+	border-bottom-color:#ddd;
+	border-right-color:transparent
+}
+.tabs-right>li.active>a,.tabs-right>li.active>a:focus,.tabs-right>li.active>a:hover {
+	border-bottom:1px solid #ddd;
+	border-left-color:transparent
+}
+.tabs-left>li>a {
+	border-radius:4px 0 0 4px;
+	margin-right:0;
+	display:block
+}
+.tabs-right>li>a {
+	border-radius:0 4px 4px 0;
+	margin-right: 0
+}
+.panel-default > .panel-heading, .panel-group .panel {
+	border-radius: 0;
+}
+.col-sm-12.col-md-12 > p {
+	font-weight: 300;
+	padding-bottom: 50px;
+}
+.col-sm-10.col-md-10.ask {
+	background: #ddd;
+}
+.inputfile {
+	display: inline-block;
+    margin-bottom: 2px;
+}
+	
+.inputfile .upload-button {	
+    display: inline-block;
+    position: relative;
+}
+
+.inputfile .upload-button input[type="file"] {
+    left: 0;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+	
+.inputfile .previous-file {
+    display: inline-block;
+}
+		
+.inputfile .previous-file .upload-button-link {
+    margin-right: 4px;
+    display: inline-block;
+    direction: rtl;
+    max-width: 360px;
+    overflow: visible;
+    height: 24px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.inputfile .previous-file .upload-button-link[href="#"] {
+    cursor: default;
+    text-decoration: none;
+}
+
+.inputfile .previous-file .upload-button-remove {
+    margin-right: 15px;
+}
+
+				
+.inputfile .previous-file .upload-button-remove .remove-icon {
+    display: inline-block;
+}
+			
+.inputfile .previous-file .upload-button-remove .restore-icon {
+    display: none;
+}
+		
+.inputfile .previous-file.deleted .upload-button-link {
+    color: #999;
+    text-decoration: line-through;
+}
+			
+.inputfile .previous-file.deleted .upload-button-remove .remove-icon {
+    display: none;
+}
+				
+.inputfile .previous-file.deleted .upload-button-remove .restore-icon {
+    display: inline-block;
+}
+
+.hashtag {
+	float: left;
+	margin-left: 5px;
+	width: 16%;
+}
+.alert {
+	padding: 4px 8px;
+	margin-bottom: 10px;
+	margin-top: 2px;
+}
+.alert.alert-success.alert-dismissable > p {
+	font-size: 12px;
+}
+.alert-dismissable .close {
+	right: 6px;
+}
+.navbar-brand {
+	padding-top: 0;
+	padding-left: 75px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li .active {
+	background: red;
+}
+.activeMenu > a {
+	color: blue;
+	background: #8AC9CC;
+}
+.chart span {
+	font-size: 50px;
+	color: silver;
+	top: 20px;
+}
+.metric {
+	text-align: center;
+	border-right: 1px solid silver;
+}
+.metric > span {
+	color: #E9602B;
+	font-size: 40px;
+	font-weight: bold;
+}
+.metric > p {
+	font-weight: 100;
+	font-size: 18px;
+}
+.list-inline.head > li {
+	width: 19%;
+	vertical-align: top;
+	}
+.list-inline.head {
+	border-bottom: 1px solid #DDD;
+	padding: 5px 0 10px 0;
+}	
+
+.head li .img-circle.img-responsive {
+    float: left;
+    margin-right: 5px;
+}
+.stats {
+	text-align: center;
+}
+.nav.nav-tabs.tabs-left > li.active {
+	border-left: 10px solid #53C7CC;
+}
